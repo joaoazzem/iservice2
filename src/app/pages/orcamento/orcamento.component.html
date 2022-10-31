@@ -1,0 +1,208 @@
+<form>
+
+  <div class="container">
+      <div class="p-5 my-4 bg-light rounded-3">
+         <h1>Orçamento</h1>
+        <br>
+
+
+        <h5>Nome Completo</h5>
+                  <div class="col-sm-10">
+                      <input type="text" class="form-control" id="name" placeholder="Digite Seu Nome Completo">
+        </div>
+
+        <br>
+
+        <h5>CPF</h5>
+                  <div class="col-sm-10">
+                <input type="number" class="form-control" id="Document" placeholder="Digite seu CPF">
+            </div>
+
+        <br>
+
+        <h5>Telefone</h5>
+        <div class="col-auto">
+                <input type="telephone" class="form-control" id="inputtelephone" placeholder="Digite seu Telefone">
+            </div>
+
+                  <br>
+
+        <h5>Email</h5>
+        <div class="col-sm-10">
+                <input type="text" class="form-control" id="inputEmail" placeholder="Email">
+            </div>
+
+            <br>
+
+        <h5>Genero</h5>
+          <div class="row">
+            <div class="col-12">
+                <div class="form-check form-check-inline">
+                    <input type="radio" class="form-check-input" name="gender" id="radioMale" checked>
+                    <label class="form-check-label" for="radioMale">Masculino</label>
+                </div>
+                <div class="form-check form-check-inline ms-3">
+                    <input type="radio" class="form-check-input" name="gender" id="radioFemale">
+                    <label class="form-check-label" for="radioFemale">Feminino</label>
+                </div>
+              </div>
+            </div>
+
+            <br>
+
+            <h5>Data de Nascimento</h5>
+            <div class="col-sm-10">
+                      <input type="date" class="form-control" name="location" required>
+                  </div>
+
+                  <br>
+
+                  <h5> Endereço</h5>
+                  <div class="row g-3">
+            <div class="col-6">
+                <input type="text" class="form-control" placeholder="Cidade">
+            </div>
+          <div class="row g-3">
+            <div class="col-4">
+              <select class="form-select">
+                  <option selected disabled>Estado</option>
+                  <option >AC</option>
+                  <option >AL</option>
+                  <option >AP</option>
+                  <option >AM</option>
+                  <option >BA</option>
+                  <option >CE</option>
+                  <option >DF</option>
+                  <option >ES</option>
+                  <option >GO</option>
+                  <option >MA</option>
+                  <option >MS</option>
+                  <option >MT</option>
+                  <option >MG</option>
+                  <option >PA</option>
+                  <option >PB</option>
+                  <option >PR</option>
+                  <option >PE</option>
+                  <option >PI</option>
+                   <option >RJ</option>
+                  <option >RN</option>
+                  <option >RS</option>
+                  <option >RO</option>
+                  <option >RR</option>
+                  <option >SC</option>
+                  <option >SP</option>
+                  <option >SE</option>
+                  <option >TO</option>
+             </select>
+            </div>
+          </div>
+          </div>
+
+        <br>
+
+        <div class="col-2">
+            <input type="text" class="form-control" placeholder="CEP">
+        </div>
+
+              <br>
+
+              <h5>Escolha o profissional desejado</h5>
+              <br>
+              <select class="form-select">
+          <option selected disabled>Escolha uma opcao</option>
+          <option value="1">Eletricista</option>
+          <option value="2">Encanador</option>
+          <option value="4">Diárista</option>
+          <option value="5">Jardineiro</option>
+          <option value="6">Operador de som</option>
+          <option value="7">Recepcionista</option>
+          <option value="8">Desenvolvedor de Software</option>
+          <option value="9">Cuidador de idosos</option>
+          <option value="10">Cozinheiro</option>
+          <option value="11">Baby-Sitter</option>
+          <option value="12">Pet Care</option>
+          <option value="13">Porteiro</option>
+          <option value="13">Motorista</option>
+          <option value="15">Seguranca</option>
+          <option value="16">Pedreiro</option>
+          <option value="17">Pintor</option>
+          <option value="18">Técnico em Televisão</option>
+          <option value="19">Técnico em eletrodomésticos</option>
+          <option value="20">Técnico em informatica</option>
+          <option value="21">Operador de camera</option>
+          <option value="22">Personal Trainer</option>
+          <option value="23">Serralheiro</option>
+          <option value="24">Secretário</option>
+          <option value="25">Vigilante</option>
+          <option value="26">Web Designer</option>
+      </select>
+
+      <br>
+
+      <h5>Inicio do atendimento</h5>
+          <div class="col-sm-10">
+                  <input id="inicio.a" type="date" class="form-control" name="location" required>
+              </div>
+
+              <br>
+
+              <h5>Conclusão do atendimento</h5>
+          <div class="col-sm-10">
+                      <input id="conclusao.a" type="date" class="form-control" name="location" required>
+              </div>
+
+              <br>
+
+              <h5>Selecione os dias da semana que será realizado:</h5>
+              <div class="form-check">
+        <input type="checkbox" class="form-check-input" name="customCheck" id="customCheck1">
+          <label class="form-check-label" for="customCheck1">Segunda-Feira</label>
+      </div>
+      <div class="form-check">
+          <input type="checkbox" class="form-check-input" name="customCheck" id="customCheck2">
+          <label class="form-check-label" for="customCheck2">Terca-Feira</label>
+      </div>
+      <div class="form-check">
+          <input type="checkbox" class="form-check-input" name="customCheck" id="customCheck3">
+          <label class="form-check-label" for="customCheck2">Quarta-Feira</label>
+      </div>
+
+      <div class="form-check">
+          <input type="checkbox" class="form-check-input" name="customCheck" id="customCheck4">
+          <label class="form-check-label" for="customCheck2">Quinta-Feira</label>
+      </div>
+
+      <div class="form-check">
+          <input type="checkbox" class="form-check-input" name="customCheck" id="customCheck5">
+          <label class="form-check-label" for="customCheck2">Sexta-Feira</label>
+      </div>
+
+      <div class="form-check">
+          <input type="checkbox" class="form-check-input" name="customCheck" id="customCheck6">
+          <label class="form-check-label" for="customCheck2">Sabado</label>
+      </div>
+
+      <div class="form-check">
+          <input type="checkbox" class="form-check-input" name="customCheck" id="customCheck7">
+          <label class="form-check-label" for="customCheck2">Domingo</label>
+      </div>
+
+      <br>
+
+      <h5>Observações</h5>
+
+      <div class="col-sm-10">
+          <textarea class="form-control" placeholder="Faca aqui sua Observacao">
+          </textarea>
+      </div>
+      <br>
+      <div id="enviar">
+        <a href="confirma" class="btn btn-primary">Enviar orçamento</a>
+      </div>
+
+      </div>
+  </div>
+
+
+    </form>
+

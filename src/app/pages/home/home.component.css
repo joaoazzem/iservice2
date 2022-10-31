@@ -1,0 +1,30 @@
+
+
+figure{
+
+  max-width: 100%;
+
+  height: auto;
+
+  background-color: #DCDCDC;
+
+  text-align: center;
+
+}
+
+h1,h2,h3{
+
+  text-align: center;
+}
+
+.carousel-item{
+
+  text-align: center;
+  max-width: 100%;
+
+}
+
+.carousel-inner{
+
+  background-color: #DCDCDC;
+}

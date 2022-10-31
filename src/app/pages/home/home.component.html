@@ -1,0 +1,155 @@
+<!-- Codigo do titulo, imagem e cartões quem somos?, Faca seu orcamento e Politicas dentro do container-->
+
+<div class="container">
+  <div class="p-5 my-4 bg-light rounded-3">
+
+      <!--Titulo e logo do site-->
+
+      <h1>Bem Vindo ao</h1>
+      <figure id="logo.inicio">
+          <img src="assets/img/logo-fundo.png" class="img-fluid" alt="logo">
+      </figure>
+      <br>
+      <h2>Um site criado para te ajudar a encontrar um serviço de confiança</h2>
+      <br>
+
+      <!-- Codigo dos cartoes -->
+
+      <div class="card-group">
+          <div class="card">
+              <img src="assets/img/quemsomos.png" class="card-img-top" alt="card" height="250">
+              <div class="card-body">
+                  <h5 class="card-title">Quem Somos?</h5>
+                  <p class="card-text">Descubra mais sobre nós!</p>
+                  <a class="btn btn-primary" routerLink="sobrenos"  routerLinkActive="active-link">Clique Aqui</a>
+              </div>
+              <div class="card-footer">
+                  <small class="text-muted"></small>
+              </div>
+          </div>
+
+          <div class="card">
+              <img src="assets/img/orcamento.jpg" class="card-img-top" alt="card" height="250">
+              <div class="card-body">
+                  <h5 class="card-title">Faça seu orçamento</h5>
+                  <p class="card-text">Solicite seu prestadro agora!</p>
+                  <a class="btn btn-primary" routerLink="orcamento"  routerLinkActive="active-link">Clique Aqui</a>
+              </div>
+              <div class="card-footer">
+                  <small class="text-muted"></small>
+              </div>
+          </div>
+
+          <div class="card">
+              <img src="assets/img/politicas.png" class="card-img-top" alt="card" height="250">
+              <div class="card-body">
+                  <h5 class="card-title">Como Funciona?</h5>
+                  <p class="card-text">Entenda como funciona nosso aplicativo!</p>
+                  <a class="btn btn-primary" routerLink="comofunciona"  routerLinkActive="active-link">Clique Aqui</a>
+               </div>
+              <div class="card-footer">
+                  <small class="text-muted"></small>
+              </div>
+          </div>
+      </div>
+  </div>
+
+  <!-- Carrosel indicando os servicos -->
+
+  <div class="row g-3">
+      <div class="p-5 my-4 bg-light rounded-3">
+          <h2>Conheça Alguns dos Nossos Serviços</h2>
+          <br>
+
+          <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+
+              <!-- indicadores de mudanca de slide -->
+
+              <ol class="carousel-indicators">
+                  <li data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"></li>
+                  <li data-bs-target="#myCarousel" data-bs-slide-to="1"></li>
+                  <li data-bs-target="#myCarousel" data-bs-slide-to="2"></li>
+                  <li data-bs-target="#myCarousel" data-bs-slide-to="3"></li>
+                  <li data-bs-target="#myCarousel" data-bs-slide-to="4"></li>
+              </ol>
+
+              <!-- Os itens do carrosel-->
+
+              <div class="carousel-inner">
+
+                  <div class="carousel-item active">
+                      <img src="assets/img/eletricista.jpg" class="text-center" alt="Slide 1" width="400" height="auto">
+                  </div>
+
+                  <div class="carousel-item">
+                      <img src="assets/img/encanador.jpg" class="text-center" alt="Slide 2" width="400" height="auto">
+                  </div>
+
+                  <div class="carousel-item">
+                      <img src="assets/img/jardineiro.jpg" class="text-center" alt="Slide 3" width="400" height="auto">
+                  </div>
+
+                  <div class="carousel-item">
+                      <img src="assets/img/limpeza.jpg" class="text-center" alt="Slide 4" width="300" height="auto">
+                  </div>
+
+                  <div class="carousel-item">
+                      <img src="assets/img/pintor.jpg" class="text-center" alt="Slide 5" width="400" height="auto">
+                  </div>
+
+                  <div class="carousel-item">
+                      <img src="assets/img/tecnico.jpg" class="text-center" alt="Slide 6" width="300" height="auto">
+                  </div>
+              </div>
+
+              <!-- Controles do carrosel -->
+
+              <a class="carousel-control-prev" href="#myCarousel" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon"></span>
+              </a>
+
+              <a class="carousel-control-next" href="#myCarousel" data-bs-slide="next">
+                  <span class="carousel-control-next-icon"></span>
+              </a>
+          </div>
+      </div>
+  </div>
+</div>
+
+<!-- Codigo referente aos comentarios dos clientes -->
+
+<div class="p-5 my-4 bg-light rounded-3" id="comentarios">
+
+  <h3>Comentários dos nossos clientes</h3>
+  <br>
+
+<div class="d-flex">
+  <div class="flex-shrink-0">
+      <img src="assets/img/julio.jpg" class="rounded-circle" alt="Sample Image" height="40">
+  </div>
+  <div class="flex-grow-1 ms-3">
+      <h5>Julio Brandão <small class="text-muted"><i>Postado 10 de Janeiro de 2022</i></small></h5>
+      <p>Site inovador, fácil de realizar o orçamento e excelente atendimento! Recomendo!</p>
+  <div class="d-flex mt-4">
+          <div class="flex-shrink-0">
+              <img src="assets/img/ana.jpg" class="rounded-circle" alt="Sample Image" height="40">
+          </div>
+          <div class="flex-grow-1 ms-3">
+              <h5>Ana Gonçalves <small class="text-muted"><i>Postado 24 de Outubro de 2021</i></small></h5>
+              <p>Tinha dificuldade de encontrar uma empregada com ótimo atendimento e de confiaça. Após 5 meses com uma funcionária do iService posso afirmar que é uma plataforma confiável e muito eficiente!</p>
+          <div class="d-flex mt-4">
+                  <div class="flex-shrink-0">
+                      <img src="assets/img/fabiano.jpg" class="rounded-circle" alt="Sample Image" height="40">
+                  </div>
+                  <div class="flex-grow-1 ms-3">
+                      <h5>Fabiano Costa <small class="text-muted"><i>Postado 03 de Março de 2022</i></small></h5>
+                      <p>Solicitei um eletrícista com muita facilidade e vou continuar utilizando a grande variedade de serviços que iService oferece. Recomendo!</p>
+                  </div>
+          </div>
+          </div>
+  </div>
+  </div>
+</div>
+</div>
+
+
