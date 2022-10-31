@@ -25,3 +25,27 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+criado para ser utilizado no trabalho do professor João Cunha
+ projeto do site (iservice) com a utilização do angular como framework.
+
+o projeto é referente ao site do Iservice,site cujo o objetivo é disponibilizar uma série de serviços que podem ser contratados digitalmente, tornado todo o processo mais simples tornando agil o cumprimento do serviço contratado,
+contando como uma grande variedade de serviços em seu escopo, o iservice se destaca no segmento de sites para prestação de serviços.
+
+
+ alunos: matheus henrique benson matricula: 202202311375
+ alunos:João Eduardo Perin Azzem Filho matricula:202202140571
+
+ Para iniciar o projeto:
+
+ 1- criar pasta para colocar o repositorio
+ 2- instalar Git no computador
+ 2- abrir Visual Studio Code
+ 3- clicar em clone Ropository
+ 4- copiar o link do repositorio do GitHub e colar no Visual Studio Code https://github.com/joaoazzem/iservice2/tree/master
+ 5- escolha a pasta que criou para descarregar o arquivo
+ 6- ao terminar, vai perguntar se gostaria de abrir o arquivo no VS Code, clique em abrir
+ 7- abra o propt de comando
+ 8- entre na pasta que possue o projeto
+ 9- coloque o comando ng serve
+ 10- aguarde e ao concluir vai aparecer o link para acessar o projeto
+ 11- abra o navegador e coloque o link gerado e pronto.
